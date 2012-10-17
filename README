@@ -1,0 +1,18 @@
+# Moodle2OpenLDAP
+# Script for migrate Moodle users to OpenLDAP
+#
+# Platform: Ubuntu Server 12.04.1 LTS  
+# Linux ubuntu 3.2.0-23-generic-pae i686 GNU/Linux
+# Required files: 
+#	mdl_user2LDIF.pl
+#	backend.isag22.ce.kmitl.ac.th.ldif
+#	init_isag22.ldif
+#
+# Test environment: 
+#	domain: isag22.ce.kmitl.ac.th
+#	Moodle 1.9 > Moodle 2.3
+# 
+# TODO
+# - correct mdl_user2LDIF.pl to the latest configuration
+# - syncing with moodle authentication (php_ldap),
+#	configuration from Moodle's manual doesn't work (It's refer to MS AD)
