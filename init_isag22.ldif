@@ -1,0 +1,23 @@
+# Create top-level object in domain
+dn: dc=isag22,dc=ce,dc=kmitl,dc=ac,dc=th
+dc: isag22
+objectClass: dcObject
+objectClass: organization
+o: isag22
+description: TESA LDAP
+
+dn: ou=moodleusers,dc=isag22,dc=ce,dc=kmitl,dc=ac,dc=th
+objectClass: top
+objectClass: organizationalUnit
+ou: moodleusers
+
+dn: uid=test2,ou=moodleusers,dc=isag22,dc=ce,dc=kmitl,dc=ac,dc=th
+uid: test2
+cn: test2
+sn: test2 
+objectClass: top
+objectClass: person
+objectClass: inetOrgPerson
+givenName: test2
+mail: test2@test2.com
+userPassword: {MD5}SreJK5PH0weC1y/LuwduwQ== 
